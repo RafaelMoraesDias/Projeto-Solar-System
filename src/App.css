@@ -1,3 +1,68 @@
+body {
+  background-image:url(./images/background.png);
+  color:white;
+  
+}
+
+header {
+  text-align: center;
+}
+
 .App {
   text-align: center;
+}
+
+.nomePlaneta {
+  text-align: center;
+  padding: 15px;
+  align-items: center;
+}
+
+.planetas {
+text-align: center;
+display: flex;
+flex-direction: column;
+
+}
+ 
+.planetCard  {
+  cursor: pointer;
+  display: flex;
+}
+ 
+
+.missionsDiv {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.mission {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  height: 20%;
+  width: 20%;
+  text-align: center;
+  border: 4px solid rgb(5, 118, 248);
+  margin:5px;
+}
+
+.missionCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ justify-content: center;
+}
+
+.missionTitle {
+  border-bottom: 20px;
+  text-align: center;
+  align-self: center;
+}
+
+
+.imgPlaneta {
+  width: 150px;
+  height: 100px;
 }
