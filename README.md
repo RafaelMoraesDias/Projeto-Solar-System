@@ -14,12 +14,12 @@ Kanban
 To download the code:
 
 git clone git@github.com:RafaelMoraesDias/Projeto-Solar-System.git
+
 Enter the project root folder:
+sd-019-a-project-solar-system
 
-cd 19-trybe-wallet
 Install the dependencies:
-
 npm install
-Launch the application in your browser:
 
+Launch the application in your browser:
 npm start
